@@ -1,5 +1,5 @@
 # Convolution arithmetic
-
+# 只是用来生层gif动态图像的，自己要先弄好pdf的图像序列，每个都要做好，按照_00,...._nn的格式命名，然后才会生成。
 A technical report on convolution arithmetic in the context of deep learning.
 
 ## Convolution animations
