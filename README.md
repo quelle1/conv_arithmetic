@@ -18,7 +18,7 @@ OSError: [Errno 2] No such file or directory
 make: *** [pdf/no_padding_no_strides_00.pdf] Error 1
 because command pdflatex is not used;
 ```
-安装pdflate网站：https://gist.github.com/quelle1/b30ac6d712d679e787f3b7a70e96a72e
+安装pdflatex网站：https://gist.github.com/quelle1/b30ac6d712d679e787f3b7a70e96a72e
 
 A technical report on convolution arithmetic in the context of deep learning.
 
