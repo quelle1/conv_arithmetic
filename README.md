@@ -1,5 +1,21 @@
 # Convolution arithmetic
-# 只是用来生层gif动态图像的，自己要先弄好pdf的图像序列，每个都要做好，按照_00,...._nn的格式命名，然后才会生成。
+# 只是用来生层gif动态图像的，自己要先弄好pdf的图像序列，每个都要做好，按照_00,...._nn的格式命名，然后才会生成，否则就会报错，生成不了。
+ Traceback (most recent call last):
+  File "./bin/produce_figure", line 269, in <module>
+    compile_figure(which_, name, step, **args_dict)
+  File "./bin/produce_figure", line 216, in compile_figure
+    '-output-directory', 'pdf'])
+  File "/usr/lib64/python2.7/subprocess.py", line 568, in check_output
+    process = Popen(stdout=PIPE, *popenargs, **kwargs)
+  File "/usr/lib64/python2.7/subprocess.py", line 711, in __init__
+    errread, errwrite)
+  File "/usr/lib64/python2.7/subprocess.py", line 1327, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+make: *** [pdf/no_padding_no_strides_00.pdf] Error 1
+because command pdflatex is not used;
+安装pdflate网站：https://gist.github.com/quelle1/b30ac6d712d679e787f3b7a70e96a72e
+
 A technical report on convolution arithmetic in the context of deep learning.
 
 ## Convolution animations
